@@ -1,13 +1,12 @@
 
 import './App.css'
-import Loader from './components/Loader'
-import Album from './components/Album'
+
 
 function App() {
   let isLoading = false
   return (
     <div className="App">
-      <Album></Album>
+      <h1>hola</h1>
     </div>
   )
 }
