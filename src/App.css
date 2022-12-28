@@ -8,16 +8,9 @@ body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
 }
-.loader{
-    position: fixed;
-    background-color: blueviolet;
+ul{
+    list-style-type: none;
 }
-.album{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    margin: 20%;
-}
-.album img{
-    padding-bottom: 80px;
+.card{
+    background-color: white;
 }
