@@ -30,7 +30,7 @@ function App() {
       mail={users[index].email}
       phone={users[index].phone}
       location={users[index].location}
-      />
+      /> 
       <button onClick={ ()=> setIndex(getRandomIndex(users.length)) }><Shuffle/></button>
     </div>
   )

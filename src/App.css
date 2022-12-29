@@ -10,7 +10,57 @@ body{
 }
 ul{
     list-style-type: none;
+    margin: 1rem;
 }
+img{
+    margin: 1rem;
+    border-radius: 100%;
+}
+
 .card{
-    background-color: white;
+    background: linear-gradient(
+        180deg,
+        rgba(238,69,64,1)0%,
+        rgba(199,44,65,1)15%,
+        rgba(128,19,54,1)30%,
+        rgba(81,10,50,1)45%,
+        rgba(45,20,44,1)100%
+    );
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    margin: 1rem;
+}
+.card:hover{
+    box-shadow: 5px 10px 20px 1px rgba(255, 255, 255, 0.509) !important;
+    transition: all 0.5s linear;
+}
+.App{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 2rem;
+}
+button{
+    background: linear-gradient(
+        180deg,
+        rgba(238,69,64,1)0%,
+        rgba(199,44,65,1)15%,
+        rgba(128,19,54,1)30%,
+        rgba(81,10,50,1)45%,
+        rgba(45,20,44,1)100%
+    );
+    color: white;
+    border-radius: 2rem;
+    font-size: 25px;
+    display: grid;
+    justify-items: center;
+    border: none;
+    padding: 1rem;
+}
+button:hover{
+    box-shadow: 5px 10px 20px 1px rgba(255, 255, 255, 0.526) !important;
+    transition: all 0.5s linear;
 }
