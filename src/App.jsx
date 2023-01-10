@@ -52,7 +52,9 @@ function App() {
         <Drinks 
         key={`drinks-${index}`}
         data={drinks}
-        /> )): <h1>No hay coincidencias</h1> } 
+        /> )): <h1 className="nohay">No hay coincidencias
+          <img src="/src/assets/6195678.png" alt="" />
+        </h1> } 
       </div>
     </div>
   );

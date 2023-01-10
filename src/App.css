@@ -47,3 +47,9 @@ background-blend-mode: screen, multiply, multiply, normal;
     flex-direction: row;
     flex-wrap: wrap;
   }
+  .nohay{
+    display: flex;
+    color: aliceblue;
+    justify-content: center;
+    align-items: flex-start;
+  }
